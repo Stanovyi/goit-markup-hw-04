@@ -126,9 +126,22 @@ address {
 }
 
 .header-navigation-link {
+  display: block;
+  position: relative;
   padding: 24px 0;
   font-weight: 500;
   color: #2e2f42;
+}
+
+.header-navigation-link.current::after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: -1px;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #404bbf;
 }
 
 .header-contacts-item {
