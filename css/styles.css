@@ -224,6 +224,13 @@ address {
 /* #endregion */
 
 /* #region Our features */
+.our-features-list .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 112px;
+}
+
 .our-features-list {
   display: flex;
   gap: 24px;
