@@ -307,6 +307,12 @@ address {
   padding: 12px;
   background-color: #4d5ae5;
   border-radius: 50%;
+  transition: background-color 500ms;
+}
+
+.team-socials-item:hover {
+  background-color: #404bbf;
+  cursor: pointer;
 }
 
 .team-socials-icon {
@@ -436,6 +442,12 @@ address {
   padding: 8px;
   background-color: #4d5ae5;
   border-radius: 50%;
+  transition: background-color 500ms;
+}
+
+.footer-social-item:hover {
+  background-color: #31d0aa;
+  cursor: pointer;
 }
 
 /* #endregion */
