@@ -473,7 +473,7 @@ address {
 }
 
 .footer-social-link:hover,
-.footer-social-link:active {
+.footer-social-link:focus {
   background-color: var(--green);
 }
 
