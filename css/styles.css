@@ -166,6 +166,7 @@ address {
 /* #region Hero */
 .hero {
   padding: 188px 0;
+  max-width: 1440px;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -224,6 +225,14 @@ address {
   width: calc((100% - 3 * 24px) / 4);
 }
 
+.features-item-wrapper {
+  padding: 24px 100px;
+  margin-bottom: 8px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  background-color: #f4f4fd;
+}
+
 .our-features-title {
   margin-bottom: 8px;
   font-weight: 500;
@@ -258,6 +267,8 @@ address {
   border-radius: 0 0 4px 4px;
   width: calc((100% - 24px * 3) / 4);
   background-color: #fff;
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .our-team-description {
